@@ -28,7 +28,7 @@ useEffect( () => {
   .then((json)=>setProducts(json))
   .finally(() => setLoading(false))
 }, []);
-  return( <div>
+  return( <div class="container"> 
       {loading && <div>Loading...</div>}
     {products.map((product) =>(
       <ProductCard data={product}/>
