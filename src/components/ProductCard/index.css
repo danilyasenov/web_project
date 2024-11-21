@@ -5,6 +5,7 @@
     justify-content: center; 
     margin: 0 auto; 
     padding: 16px; 
+    border-radius: 16px;
   }
 .product-card{
     display: flex;
@@ -31,6 +32,7 @@ img{
 }
 .category{
     color: rgb(77, 128, 158);
+    text-transform: capitalize;
 
 }
 .bottom{
