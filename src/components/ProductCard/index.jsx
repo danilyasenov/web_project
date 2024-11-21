@@ -1,3 +1,4 @@
+
 import "./index.css";
 
 export function ProductCard(props) {
@@ -11,7 +12,7 @@ export function ProductCard(props) {
                 <div>
                     <b>{price}$</b>
                 </div> 
-                <button>Add me</button>
+                <button>Add to chart</button>
             </div>
         </div>
     )
